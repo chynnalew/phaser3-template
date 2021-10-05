@@ -1,4 +1,4 @@
-
+import Phaser from '../lib/phaser.js';
 
 export default class Game extends Phaser.Scene
 {
@@ -9,7 +9,7 @@ export default class Game extends Phaser.Scene
 
   preload ()
   {
-    this.load.image('logo', 'src/assets/logo.png');
+    this.load.image('logo', 'assets/logo.png');
   }
     
   create ()
